@@ -1,0 +1,32 @@
+{
+  "run_id": 1,
+  "scenario_id": "S0_NORMAL",
+  "description": "Phase A baseline: normal traffic with two legitimate nodes (no Sybil).",
+  "duration_s": 300,
+
+  "nodes": [
+    {
+      "node_id": "ecg_01",
+      "msg_type": "ECG",
+      "tx_period_ms": 100
+    },
+    {
+      "node_id": "eeg_01",
+      "msg_type": "EEG",
+      "tx_period_ms": 50
+    }
+  ],
+
+  "gateway": {
+    "listen_ip": "0.0.0.0",
+    "listen_port": 5005,
+    "output_root": "experiments/outputs"
+  },
+
+  "sniffer": {
+    "enabled": true,
+    "iface": "wlp8s0f4u1mon",
+    "pcap_filename": "sniff.pcap",
+    "csv_filename": "sniffer_frames.csv"
+  }
+}
