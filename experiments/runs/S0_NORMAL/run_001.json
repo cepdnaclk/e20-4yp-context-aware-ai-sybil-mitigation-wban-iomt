@@ -25,7 +25,7 @@
 
   "sniffer": {
     "enabled": true,
-    "iface": "wlan1mon",
+    "iface": "wlp8s0f4u1mon",
     "pcap_filename": "sniff.pcap",
     "csv_filename": "sniffer_frames.csv"
   }
