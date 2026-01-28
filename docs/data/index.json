@@ -1,33 +1,33 @@
 {
-    "team": [
-        {
-            "name": "Chanuka B.D.K.",
-            "email": "e20049@eng.pdn.ac.lk",
-            "eNumber": "E/20/049"
-        },
-        {
-            "name": "Ranawaka R.A.D.J.I.",
-            "email": "e20318@eng.pdn.ac.lk",
-            "eNumber": "E/20/318"
-        },
-        {
-            "name": "Sewmini K.T.R.",
-            "email": "e20370@eng.pdn.ac.lk",
-            "eNumber": "E/20/370"
-        }
-    ],
-    "supervisors": [
-        {
-            "name": "Dr. Suneth Namal Karanarathna",
-            "email": "suneth@eng.pdn.ac.lk"
-        }
-    ],
-    "media": [
-        {
-            "type": "youtube",
-            "title": "Context-Aware Self-Healing Security Framework for WBAN Against Sybil Attacks",
-            "url": "#"
-        }
-    ],
-    "tags": ["Final Year Project", "WBAN", "IoMT", "Cyber Security", "Machine Learning"]
+  "team": [
+    {
+      "name": "Chanuka B.D.K.",
+      "email": "e20049@eng.pdn.ac.lk",
+      "eNumber": "E20049"
+    },
+    {
+      "name": "Ranawaka R.A.D.J.I.",
+      "email": "e20318@eng.pdn.ac.lk",
+      "eNumber": "E20318"
+    },
+    {
+      "name": "Sewmini K.T.R.",
+      "email": "e20370@eng.pdn.ac.lk",
+      "eNumber": "E20370"
+    }
+  ],
+  "supervisors": [
+    {
+      "name": "Dr. Suneth Namal Karanarathna",
+      "email": "suneth@eng.pdn.ac.lk"
+    }
+  ],
+  "media": [],
+  "tags": [
+    "Final Year Project",
+    "WBAN",
+    "IoMT",
+    "Cyber Security",
+    "Machine Learning"
+  ]
 }
