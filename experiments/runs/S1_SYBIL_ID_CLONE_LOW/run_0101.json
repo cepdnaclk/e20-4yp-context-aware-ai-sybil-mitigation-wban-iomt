@@ -1,7 +1,7 @@
 {
-  "run_id": 1,
-  "scenario_id": "S0_NORMAL",
-  "description": "Phase A baseline: normal traffic with two legitimate nodes (no Sybil).",
+  "run_id": 101,
+  "scenario_id": "S1_SYBIL_ID_CLONE_LOW",
+  "description": "Phase A Sybil (low-rate): external attacker clones ecg_01 identity at 2 pps while two legitimate nodes run normally.",
   "duration_s": 7200,
 
   "nodes": [
@@ -25,8 +25,17 @@
 
   "sniffer": {
     "enabled": true,
-    "iface": "wlp8s0f3u2mon",
+    "iface": "wlp8s0f4u1mon",
     "pcap_filename": "sniff.pcap",
     "csv_filename": "sniffer_frames.csv"
+  },
+
+  "attacker": {
+    "enabled": true,
+    "type": "esp32",
+    "target_node_id": "ecg_01",
+    "msg_type": "ECG",
+    "tx_period_ms": 500,
+    "start_delay_s": 10
   }
 }
